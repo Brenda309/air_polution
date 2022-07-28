@@ -1,0 +1,31 @@
+* {
+  box-sizing: content-box;
+}
+
+.home{
+    display: flex;
+    background-color: rgb(18, 63, 18);
+    justify-content: space-around;
+    opacity: 0.4;
+  
+}
+#africa{
+    padding-top: 50px;
+    width: 300px;
+    height: 400px;
+    margin-left: 30px;
+}
+
+.cities{
+    padding-top: 120px;
+    font-size: 60px;
+    margin: 0;
+    color: white;
+    padding-right: 60px;
+    font-weight :700
+}
+.ncities{
+    font-size: 30px;
+    margin: 0;
+    color: white;
+}
