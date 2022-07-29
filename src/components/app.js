@@ -1,18 +1,26 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Home from './home_page/home';
-import Details from './detail_page/details';
+import NorthCountries from './home_page/NorthCounties';
+import DetailsCa from './home_page/DetailsCa';
+import DetailsSa from './home_page/DetailSa';
+import DetailsApi from './home_page/DetailsApi';
 import Navbar from './navbar';
+import DetailsTc from './home_page/DetailsTc';
 
 function App() {
   return (
-    <Router>
+    <div className="App">
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/details" element={<Details />} />
+        <Route path="/" element={<Navigate replace to="/home" />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/north_Africa" element={<NorthCountries />} />
+        <Route path="/details_central_america" element={<DetailsCa />} />
+        <Route path="/details_south_america" element={<DetailsSa />} />
+        <Route path="/details_the_caribbean" element={<DetailsTc />} />
+        <Route path="/details_api_data" element={<DetailsApi />} />
       </Routes>
-    </Router>
+    </div>
   );
 }
 

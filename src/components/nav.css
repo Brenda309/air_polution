@@ -1,8 +1,9 @@
 .navbar{
     display: flex;
-    background-color: rgb(29, 78, 29);
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
+    border-bottom:  #83da83 solid 1px;
+
 }
 .toHome{
     display: flex; 

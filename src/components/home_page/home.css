@@ -1,12 +1,12 @@
 * {
   box-sizing: content-box;
+  background-color: green;
 }
 
 .home{
     display: flex;
-    background-color: rgb(18, 63, 18);
     justify-content: space-around;
-    opacity: 0.4;
+    opacity: 0.3e;
   
 }
 #africa{
