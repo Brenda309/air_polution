@@ -3,20 +3,19 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { nanoid } from 'nanoid';
 import CapitalCard from './CapitalCard';
-import { getSouthCountries } from '../../Redux/regions/fetchSouthernAfr';
+import { getWestCountries } from '../../Redux/regions/fetchWest';
 
-const SouthCountries = () => {
+const WestCountries = () => {
   const [search, setSearch] = useState('');
   const dispatch = useDispatch();
-  const southCapital = useSelector((state) => state.southAfrica);
+  const westCapital = useSelector((state) => state.westAfrica);
   useEffect(() => {
-    if (!southCapital.length) {
-      dispatch(getSouthCountries());
+    if (!westCapital.length) {
+      dispatch(getWestCountries());
     }
   }, [dispatch]);
-  const filteredCountries = southCapital.filter((item) => item.country.toLowerCase()
+  const filteredCountries = westCapital.filter((item) => item.country.toLowerCase()
     .includes(search.toLocaleLowerCase()));
-
   return (
     <>
       <div className="container-input">
@@ -45,4 +44,4 @@ const SouthCountries = () => {
   );
 };
 
-export default SouthCountries;
+export default WestCountries;

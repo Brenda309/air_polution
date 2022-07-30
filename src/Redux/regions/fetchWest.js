@@ -1,7 +1,7 @@
-const FETCH_SOUTH_AFRICA = 'air-pollution/Redux/Regions/FETCH_SOUTH_AFRICA';
+const FETCH_WEST_AFRICA = 'air-pollution/Redux/Regions/FETCH_WEST_AFRICA';
 const initialState = [];
 
-export const getSouthCountries = () => async (dispatch) => {
+export const getWestCountries = () => async (dispatch) => {
   const connect = await fetch('https://restcountries.com/v3.1/region/africa');
   const res = await connect.json().then((dataObject) => dataObject);
   const dataArray = res.map((item) => {
@@ -15,17 +15,15 @@ export const getSouthCountries = () => async (dispatch) => {
     };
     return dataToGet;
   });
-  const Southern = dataArray.filter(
-    (item) => item.region === 'Southern Africa',
-  );
+  const western = dataArray.filter((item) => item.region === 'Western Africa');
   dispatch({
-    type: FETCH_SOUTH_AFRICA,
-    payload: Southern,
+    type: FETCH_WEST_AFRICA,
+    payload: western,
   });
 };
-export function reducerForSouth(state = initialState, action) {
+export function reducerForWest(state = initialState, action) {
   switch (action.type) {
-    case FETCH_SOUTH_AFRICA:
+    case FETCH_WEST_AFRICA:
       return action.payload;
     default:
       return state;
