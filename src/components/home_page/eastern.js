@@ -3,18 +3,18 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { nanoid } from 'nanoid';
 import CapitalCard from './CapitalCard';
-import { fetchSa } from '../../Redux/fetchData';
+import { getEastCountries } from '../../Redux/regions/fetchEatAfrica';
 
-const DetailsSa = () => {
+const EastCountries = () => {
   const [search, setSearch] = useState('');
   const dispatch = useDispatch();
-  const saCities = useSelector((state) => state.southAmerica);
+  const eastCapital = useSelector((state) => state.eastAfrica);
   useEffect(() => {
-    if (!saCities.length) {
-      dispatch(fetchSa());
+    if (!eastCapital.length) {
+      dispatch(getEastCountries());
     }
   }, [dispatch]);
-  const filteredCountries = saCities.filter((item) => item.country.toLowerCase()
+  const filteredCountries = eastCapital.filter((item) => item.country.toLowerCase()
     .includes(search.toLocaleLowerCase()));
 
   return (
@@ -45,4 +45,4 @@ const DetailsSa = () => {
   );
 };
 
-export default DetailsSa;
+export default EastCountries;

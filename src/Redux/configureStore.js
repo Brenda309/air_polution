@@ -1,23 +1,16 @@
 import { configureStore } from '@reduxjs/toolkit';
 import thunk from 'redux-thunk';
-import {
-  reducerCa,
-  reducerSa,
-  reducerTc,
-  // fetchCa,
-  fetchSa,
-  fetchTc,
-} from './fetchData';
 import { reducerForNorth, getNorthCountries } from './regions/fetchNorthAfrica';
+import { getSouthCountries, reducerForSouth } from './regions/fetchSouthernAfr';
+import { getEastCountries, reducerForEast } from './regions/fetchEatAfrica';
 
 import { reducerApApi } from './fetchAPI';
 
 const store = configureStore({
   reducer: {
     northAfrica: reducerForNorth,
-    centralAmerica: reducerCa,
-    southAmerica: reducerSa,
-    theCaribbean: reducerTc,
+    SauthAfrica: reducerForSouth,
+    eastAfrica: reducerForEast,
     apApi: reducerApApi,
   },
   applyMiddleware: [thunk],
@@ -27,8 +20,6 @@ store.subscribe(() => {
   store.getState();
 });
 store.dispatch(getNorthCountries());
-// store.dispatch(fetchCa());
-store.dispatch(fetchSa());
-store.dispatch(fetchTc());
-
+store.dispatch(getSouthCountries());
+store.dispatch(getEastCountries());
 export default store;
