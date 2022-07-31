@@ -13,7 +13,7 @@
   font-weight: bold;
   display: flex;
   text-align: center;
-  box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 16px 1px rgba(6, 58, 19, 0.3);
 }
 
 .southy { 
@@ -23,7 +23,7 @@
   font-weight: bold;
   display: flex;
   text-align: center;
-  box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 16px 1px rgba(15, 80, 18, 0.3);
 }
 
 .westy {
@@ -33,7 +33,7 @@
   font-weight: bold;
   display: flex;
   text-align: center;
-  box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 16px 1px rgba(31, 85, 26, 0.3);
 }
 
 .easty {
@@ -43,7 +43,7 @@ background-image: url('../assets/east.png');
   font-weight: bold;
   display: flex;
   text-align: center;
-  box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 16px 1px rgba(12, 63, 29, 0.3);
 }
 
 .capitalCard {
@@ -54,9 +54,7 @@ background-image: url('../assets/east.png');
   width: 150px;
   height: 150px;
   padding: 1em;
-  background-color: rgba(0, 0, 255, 0.25);
   border-radius: 1rem;
-  box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.3);
 }
 
 .capitalCard img {
@@ -91,7 +89,7 @@ background-image: url('../assets/east.png');
   margin: 0.25em;
   font-size: 1.25em;
   width: 100%;
-  box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 16px 1px rgba(13, 85, 25, 0.3);
 }
 
 .apCont .co {
@@ -118,12 +116,50 @@ background-image: url('../assets/east.png');
   display: flex;
   width: 100%;
   height: 250px;
-  background-color: rgb(8, 29, 8);
-  opacity: ;
+  background-color: rgb(44, 141, 44);
+  opacity:0.5 ;
   justify-content: center;
   align-items: center;
 }
 
 .regionImg {
   width: 100px;
+}
+
+.apCont {
+  text-align: center;
+  border-radius: 2rem;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.apCont .co h1 {
+  margin: 0%;
+  border-bottom: 3px solid black;
+  border-radius: 2rem;
+  width: 50%;
+}
+
+.apCont .co p {
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 0.5em;
+  margin: 0.25em;
+  font-size: 1.25em;
+  width: 100%;
+  box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.3);
+}
+
+.apCont .co {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+}
+
+.filterBox {
+  padding: 0.5em;
+  font-size: 1.25em;
+  width: 100%;
 }

@@ -1,6 +1,9 @@
 /* stylelint-disable */
 * {
-  box-sizing: content-box;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.15em;
+  min-width: 360px;
+  color: white;
   background-color: green;
 }
 
