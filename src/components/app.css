@@ -14,29 +14,26 @@
   display: flex;
   text-align: center;
   box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.3);
-    padding: 60px;
 }
 
 .southy { 
-    background-image: url('../assets/south.png');
+  background-image: url('../assets/south.png');
   background-size: cover;
   font-size: 1.3em;
   font-weight: bold;
   display: flex;
   text-align: center;
-  padding: 60px;
   box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.3);
 }
 
 .westy {
-background-image: url('../assets/west.png');
+  background-image: url('../assets/west.png');
   background-size: cover;
   font-size: 1.35em;
   font-weight: bold;
   display: flex;
   text-align: center;
   box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.3);
-    padding: 60px;
 }
 
 .easty {
@@ -47,7 +44,6 @@ background-image: url('../assets/east.png');
   display: flex;
   text-align: center;
   box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.3);
-  padding: 60px;
 }
 
 .capitalCard {
@@ -114,3 +110,20 @@ background-image: url('../assets/east.png');
 }
 
 
+
+.northy,
+.southy,
+.easty,
+.westy {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  background-color: rgb(8, 29, 8);
+  opacity: ;
+  justify-content: center;
+  align-items: center;
+}
+
+.regionImg {
+  width: 100px;
+}
