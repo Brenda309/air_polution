@@ -21,7 +21,7 @@ Uses Redux store, actions and reducers in React.
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://62e6081bc322be181d055c6d--statuesque-truffle-71704f.netlify.app/home)
+[Live Demo Link](https://62e6137ae62a5c000904feed--statuesque-truffle-71704f.netlify.app/home)
 
 
 ## Clone this repository
