@@ -33,7 +33,7 @@
   font-weight: bold;
   display: flex;
   text-align: center;
-  box-shadow: 2px 2px 16px 1px rgba(31, 85, 26, 0.3);
+  box-shadow: 2px 2px 16px 1px rgba(175, 35, 152, 0.3);
 }
 
 .easty {
@@ -72,12 +72,12 @@ background-image: url('../assets/east.png');
   align-items: center;
   flex-wrap: wrap;
   gap: 0.5em;
-  padding: 1em 0;
+  padding: 4em 0;
 }
 
 .apCont .co h1 {
   margin: 0%;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid rgb(139, 11, 129);
   border-radius: 2rem;
   width: 50%;
 }
@@ -116,8 +116,8 @@ background-image: url('../assets/east.png');
   display: flex;
   width: 100%;
   height: 250px;
-  background-color: rgb(44, 141, 44);
-  opacity:0.5 ;
+  background-color: rgb(218, 32, 187);
+  opacity:0.3 ;
   justify-content: center;
   align-items: center;
 }

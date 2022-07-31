@@ -4,13 +4,13 @@
   font-size: 1.15em;
   min-width: 360px;
   color: white;
-  background-color: green;
+  background-color: rgb(202, 52, 135);
 }
 
 .home{
     display: flex;
     justify-content: center;
-    opacity: 0.3e;
+    opacity: 0.3;
   
 }
 #africa{
