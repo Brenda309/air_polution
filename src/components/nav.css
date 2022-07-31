@@ -1,0 +1,11 @@
+/* stylelint-disable */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom:  #83da83 solid 1px;
+
+}
+.toHome{
+    display: flex; 
+}

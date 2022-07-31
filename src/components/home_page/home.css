@@ -1,0 +1,36 @@
+/* stylelint-disable */
+* {
+  box-sizing: content-box;
+  background-color: green;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    opacity: 0.3e;
+  
+}
+#africa{
+    padding-top: 50px;
+    width: 300px;
+    height: 400px;
+     margin: 0;
+}
+
+.cities{
+    padding-top: 120px;
+    font-size: 60px;
+    margin: 0;
+    color: white;
+    padding-right: 60px;
+    font-weight :700
+}
+.ncities{
+    font-size: 30px;
+    margin: 0;
+    color: white;
+}
+
+#country{
+    font-size: larger;
+}

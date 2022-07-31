@@ -1,56 +1,55 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Air pollution
+A web application that provides current air pollution data for all of the 56 capitals of the American continent!
 
-> Description the project.
+Uses React components, props, life cycle methods
+React Router.
+Connect React and Redux.
+Handle events in a React app.
+Uses React Testing Library.
+Uses Redux store, actions and reducers in React.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- html
+- css
+- JavaScript
+- React
+- Redux
 
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
 
 
-## Getting Started
+## Clone this repository
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+      $ git clone git@github.com:Brenda309/air-pollution.git
+      $ cd air-pollution
 
+## Run project
+      $ npm install
+      $ npm run start# this will make webpack watching for your changes in code
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
 
 ### Setup
-
+- Text editor
+- Terminal
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+    $ npx create-react-app ./
+    $ cd air-pollution
+### Open page in browser
+    $ open dist/index.html
 
 ## Authors
 
-👤 **Author1**
+👤 **Brenda Wihogora**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Brenda309](https://github.com/Brenda309)
+- Twitter: [@BrendaWihogora](https://twitter.com/BrendaWihogora)
+- LinkedIn: [BrendaWihogora](https://linkedin.com/in/BrendaWihogora/)
 
 ## 🤝 Contributing
 
