@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.regions {
+  display: grid;
+  grid-template-columns: auto auto;
+
+}
+.northy {
+    background-image: url('../assets/north.png');
+  background-size: cover;
+  font-size: 1.45em;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.3);
+    padding: 60px;
+}
+
+.southy { 
+    background-image: url('../assets/south.png');
+  background-size: cover;
+  font-size: 1.3em;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  padding: 60px;
+  box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.3);
+}
+
+.westy {
+background-image: url('../assets/west.png');
+  background-size: cover;
+  font-size: 1.35em;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.3);
+    padding: 60px;
+}
+
+.easty {
+background-image: url('../assets/east.png');
+  background-size: 200%;
+  font-size: 1.35em;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.3);
+  padding: 60px;
+}
+
+.capitalCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  padding: 1em;
+  background-color: rgba(0, 0, 255, 0.25);
+  border-radius: 1rem;
+  box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.3);
+}
+
+.capitalCard img {
+  width: 100%;
+}
+
+.capitalCard p {
+  margin: 0%;
+  text-align: center;
+}
+
+.capitalCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  padding: 1em 0;
+}
+
+.apCont .co h1 {
+  margin: 0%;
+  border-bottom: 3px solid black;
+  border-radius: 2rem;
+  width: 50%;
+}
+
+.apCont .co p {
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 0.5em;
+  margin: 0.25em;
+  font-size: 1.25em;
+  width: 100%;
+  box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.3);
+}
+
+.apCont .co {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+}
+
+.filterBox {
+  padding: 0.5em;
+  font-size: 1.25em;
+  width: 100%;
+  background-color: white;
+}
+
+

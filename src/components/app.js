@@ -6,6 +6,7 @@ import DetailsApi from './home_page/DetailsApi';
 import SouthCountries from './home_page/Southern';
 import WestCountries from './home_page/westen';
 import Navbar from './navbar';
+import './app.css';
 
 function App() {
   return (

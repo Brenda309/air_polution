@@ -10,31 +10,33 @@ const Home = () => {
   const getWestCountries = useSelector((state) => state.westAfrica);
   return (
     <div className="wrapper">
-      <div>
-        <img id="africa" src={africa} alt="Africa-continent" />
-      </div>
-      <div>
+      <div className="home">
         <div>
-          <p className="cities">Africa</p>
+          <img id="africa" src={africa} alt="Africa-continent" />
         </div>
         <div>
-          <p className="ncities">Cities:54</p>
+          <div>
+            <p className="cities">Africa</p>
+          </div>
+          <div>
+            <p className="ncities">Cities:54</p>
+          </div>
         </div>
       </div>
-      <p id="stats">Select capital city by region</p>
-      <div className="regionCont">
+      <p id="country">Select country by region</p>
+      <div className="regions">
         <Link to="/north_africa">
           <div role="button" tabIndex={0} className="northy">
             {`Northern Africa ${getNorthCountries.length} main cities`}
           </div>
         </Link>
         <Link to="/east_africa">
-          <div role="button" tabIndex={0} className="southy">
+          <div role="button" tabIndex={0} className="easty">
             {`Eastern Africa ${getEastCountries.length} main cities`}
           </div>
         </Link>
         <Link to="/south_africa">
-          <div role="button" tabIndex={0} className="westy">
+          <div role="button" tabIndex={0} className="southy">
             {`Southern Africa ${getSouthCountries.length} main cities`}
           </div>
         </Link>

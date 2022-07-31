@@ -5,7 +5,7 @@
 
 .home{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     opacity: 0.3e;
   
 }
@@ -13,7 +13,7 @@
     padding-top: 50px;
     width: 300px;
     height: 400px;
-    margin-left: 30px;
+     margin: 0;
 }
 
 .cities{
@@ -28,4 +28,8 @@
     font-size: 30px;
     margin: 0;
     color: white;
+}
+
+#country{
+    font-size: larger;
 }

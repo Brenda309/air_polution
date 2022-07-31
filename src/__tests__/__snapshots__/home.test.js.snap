@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the Home component Jest Snapshot testing suite Matches DOM Snapshot 1`] = `
+<div
+  class="wrapper"
+>
+  <div>
+    <img
+      alt="Africa-continent"
+      id="africa"
+      src="Africa.png"
+    />
+  </div>
+  <div>
+    <div>
+      <p
+        class="cities"
+      >
+        Africa
+      </p>
+    </div>
+    <div>
+      <p
+        class="ncities"
+      >
+        Cities:54
+      </p>
+    </div>
+  </div>
+  <p
+    id="stats"
+  >
+    Select capital city by region
+  </p>
+  <div
+    class="regionCont"
+  >
+    <a
+      href="/north_africa"
+    >
+      <div
+        class="northy"
+        role="button"
+        tabindex="0"
+      >
+        Northern Africa 0 main cities
+      </div>
+    </a>
+    <a
+      href="/east_africa"
+    >
+      <div
+        class="southy"
+        role="button"
+        tabindex="0"
+      >
+        Eastern Africa 0 main cities
+      </div>
+    </a>
+    <a
+      href="/south_africa"
+    >
+      <div
+        class="westy"
+        role="button"
+        tabindex="0"
+      >
+        Southern Africa 0 main cities
+      </div>
+    </a>
+    <a
+      href="/west_africa"
+    >
+      <div
+        class="westy"
+        role="button"
+        tabindex="0"
+      >
+        western Africa 0 main cities
+      </div>
+    </a>
+  </div>
+</div>
+`;
