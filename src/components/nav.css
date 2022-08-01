@@ -4,7 +4,7 @@
     flex-direction: row;
     justify-content: space-between;
     border-bottom:  #4f91e7 solid 1px;
-    padding: 0.3em 0.3em 0 0.3em;
+    padding: 0.3em 0.3em 0 0.1em;
     
 
 }
@@ -12,5 +12,6 @@
     display: flex; 
 }
 @media screen and (min-width: 992px) {
+    
 
 }
