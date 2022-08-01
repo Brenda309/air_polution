@@ -23,7 +23,7 @@
   font-weight: bold;
   display: flex;
   text-align: center;
-  box-shadow: 2px 2px 16px 1px rgba(15, 80, 18, 0.3);
+  box-shadow: 2px 2px 16px 1px rgba(72, 107, 224, 0.3);
 }
 
 .westy {
@@ -43,7 +43,7 @@ background-image: url('../assets/east.png');
   font-weight: bold;
   display: flex;
   text-align: center;
-  box-shadow: 2px 2px 16px 1px rgba(12, 63, 29, 0.3);
+  box-shadow: 2px 2px 16px 1px rgba(31, 131, 224, 0.3);
 }
 
 .capitalCard {
@@ -77,19 +77,19 @@ background-image: url('../assets/east.png');
 
 .apCont .co h1 {
   margin: 0%;
-  border-bottom: 3px solid rgb(139, 11, 129);
+  border-bottom: 3px solid rgb(20, 116, 194);
   border-radius: 2rem;
   width: 50%;
 }
 
 .apCont .co p {
-  border: 1px solid black;
+  border: 1px solid rgb(34, 128, 216);
   border-radius: 1rem;
   padding: 0.5em;
   margin: 0.25em;
   font-size: 1.25em;
   width: 100%;
-  box-shadow: 2px 2px 16px 1px rgba(13, 85, 25, 0.3);
+  box-shadow: 2px 2px 16px 1px rgba(32, 78, 165, 0.3);
 }
 
 .apCont .co {
@@ -116,7 +116,7 @@ background-image: url('../assets/east.png');
   display: flex;
   width: 100%;
   height: 250px;
-  background-color: rgb(218, 32, 187);
+  background-color: rgb(52, 97, 223);
   opacity:0.3 ;
   justify-content: center;
   align-items: center;
@@ -150,16 +150,11 @@ background-image: url('../assets/east.png');
   box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.3);
 }
 
-.apCont .co {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 100%;
-  align-items: center;
-}
-
 .filterBox {
   padding: 0.5em;
   font-size: 1.25em;
   width: 100%;
+}
+@media screen and (min-width: 992px) {
+  
 }
