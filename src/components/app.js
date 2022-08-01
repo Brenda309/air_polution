@@ -7,6 +7,7 @@ import SouthCountries from './home_page/Southern';
 import WestCountries from './home_page/westen';
 import Navbar from './navbar';
 import './app.css';
+import Footer from './footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/west_Africa" element={<WestCountries />} />
         <Route path="/details_api_data" element={<DetailsApi />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
