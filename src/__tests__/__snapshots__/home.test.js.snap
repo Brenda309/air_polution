@@ -4,36 +4,40 @@ exports[`Testing the Home component Jest Snapshot testing suite Matches DOM Snap
 <div
   class="wrapper"
 >
-  <div>
-    <img
-      alt="Africa-continent"
-      id="africa"
-      src="Africa.png"
-    />
-  </div>
-  <div>
+  <div
+    class="home"
+  >
     <div>
-      <p
-        class="cities"
-      >
-        Africa
-      </p>
+      <img
+        alt="Africa-continent"
+        id="africa"
+        src="Africa.png"
+      />
     </div>
     <div>
-      <p
-        class="ncities"
-      >
-        Cities:54
-      </p>
+      <div>
+        <p
+          class="cities"
+        >
+          Africa
+        </p>
+      </div>
+      <div>
+        <p
+          class="ncities"
+        >
+          Cities:54
+        </p>
+      </div>
     </div>
   </div>
   <p
-    id="stats"
+    id="country"
   >
-    Select capital city by region
+    Select country by region
   </p>
   <div
-    class="regionCont"
+    class="regions"
   >
     <a
       href="/north_africa"
@@ -50,7 +54,7 @@ exports[`Testing the Home component Jest Snapshot testing suite Matches DOM Snap
       href="/east_africa"
     >
       <div
-        class="southy"
+        class="easty"
         role="button"
         tabindex="0"
       >
@@ -61,7 +65,7 @@ exports[`Testing the Home component Jest Snapshot testing suite Matches DOM Snap
       href="/south_africa"
     >
       <div
-        class="westy"
+        class="southy"
         role="button"
         tabindex="0"
       >
