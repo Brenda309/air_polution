@@ -22,7 +22,7 @@ Uses Redux store, actions and reducers in React.
 ## Live Demo (if available)
 
 
-[Live Demo Link](https://deploy-preview-4--magnificent-granita-6be4b7.netlify.app/home)
+[Live Demo Link](https://magnificent-granita-6be4b7.netlify.app/home)
 
 [ Demo Link](https://www.loom.com/share/bd1a604827944491b4465dd114770b9a)
 
