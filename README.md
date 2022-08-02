@@ -67,7 +67,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Origin design by Nelson Sakwa on Behance
+- Origin design by Nelson Sakwa 
 
 
 ## 📝 License
