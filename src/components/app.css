@@ -8,7 +8,6 @@
 }
 .northy {
     background-image: url('../assets/north.png');
-   border-left: solid darkblue 2px;
 }
 
 .southy { 
@@ -97,6 +96,8 @@ background-image: url('../assets/east.png');
   align-items: center;
   font-size: 20px;
   background-blend-mode:color-burn;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .apCont {
