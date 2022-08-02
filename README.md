@@ -21,7 +21,11 @@ Uses Redux store, actions and reducers in React.
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://62e6137ae62a5c000904feed--statuesque-truffle-71704f.netlify.app/home)
+
+[Live Demo Link](https://magnificent-granita-6be4b7.netlify.app/)
+
+[ Demo Link](https://www.loom.com/share/bd1a604827944491b4465dd114770b9a)
+
 
 
 ## Clone this repository
@@ -63,9 +67,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Origin design by Nelson Sakwa 
+
 
 ## 📝 License
 

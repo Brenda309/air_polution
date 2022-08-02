@@ -1,23 +1,53 @@
 /* stylelint-disable */
 * {
-  box-sizing: content-box;
-  background-color: green;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  background-color: rgb(15, 76, 155);
 }
 
 .home{
     display: flex;
-    justify-content: center;
-    opacity: 0.3e;
+    justify-content: space-between;
+    margin: 0 1em;
+}
+#africa{
+    padding-top: 40px;
+    width: 150px;
+    height: 200px;
+    opacity: 0.1;
   
+}
+
+.cities{
+    padding-top: 100px;
+    font-size: 40px;
+    margin: 0 1em;
+    color: white;
+    font-weight :700
+}
+.ncities{
+    font-size: 20px;
+    margin: 0 2em;
+    color: white;
+}
+
+#country{
+    font-size: 20px;
+}
+@media screen and (min-width: 992px) {
+
+.home{
+    display: flex;
+    justify-content: center;
+    margin: 0 1em;
 }
 #africa{
     padding-top: 50px;
     width: 300px;
     height: 400px;
-     margin: 0;
-}
-
-.cities{
+    opacity: 0.2;
+}  
+  .cities{
     padding-top: 120px;
     font-size: 60px;
     margin: 0;
@@ -33,4 +63,6 @@
 
 #country{
     font-size: larger;
+    margin: 1em;
+}
 }

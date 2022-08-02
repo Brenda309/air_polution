@@ -15,7 +15,7 @@ const Navbar = () => (
       </div>
     </div>
     <div>
-      <h1 style={{ color: 'white', fontSize: '20px' }}>
+      <h1 style={{ color: 'white', fontSize: '25px' }}>
         Air Pullution Forecast
       </h1>
     </div>
